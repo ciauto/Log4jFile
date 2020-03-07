@@ -1,0 +1,26 @@
+18:19:59.294 DEBUG LoggingFile - Debug message logged
+18:19:59.297 ERROR LoggingFile - Error message logged
+18:19:59.297 FATAL LoggingFile - Fatal message logged
+18:20:27.727 DEBUG LoggingFile - Debug message logged
+18:20:27.730 ERROR LoggingFile - Error message logged
+18:20:27.731 FATAL LoggingFile - Fatal message logged
+18:32:59.497 DEBUG LoggingFile - Debug message logged
+18:32:59.500 ERROR LoggingFile - Error message logged
+18:32:59.501 FATAL LoggingFile - Fatal message logged
+18:40:46.671 DEBUG LoggingFile - Debug message logged
+18:40:46.674 ERROR LoggingFile - Error message logged
+18:40:46.675 FATAL LoggingFile - Fatal message logged
+18:41:49.519 DEBUG LoggingFile - Debug message logged
+18:41:49.522 ERROR LoggingFile - Error message logged
+18:41:49.534 FATAL LoggingFile - Fatal message logged
+18:48:55.928 DEBUG LoggingFile - Debug message logged
+18:48:55.935 ERROR LoggingFile - Error message logged
+18:48:55.935 FATAL LoggingFile - Fatal message logged
+19:06:11.698 DEBUG LoggingFile - Debug message logged
+19:06:11.705 ERROR LoggingFile - Error message logged
+19:06:11.705 FATAL LoggingFile - Fatal message logged
+19:06:39.973 DEBUG LoggingFile - Debug message logged
+19:06:39.973 ERROR LoggingFile - Error message logged
+19:06:39.977 FATAL LoggingFile - Fatal message logged
+19:25:37.169  INFO TestCase1 -verifyTitle test started
+19:25:37.254  INFO TestCase1 -verifyTitle test completed

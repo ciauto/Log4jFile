@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+	<Properties>
+		<Property name='basePath'> C:\eclipse-workspace-201906\Log4jFile\logs
+		</Property>
+	</Properties>
+
+
+	<Appenders>
+		<RollingFile name="File" fileName="${basePath}/app.log"	filePattern="${basePath}/app-%d{yyyy-MM-dd}.log">
+				<PatternLayout pattern="%d{HH:mm:ss.SSS} %5level %c{1} -%msg%n"></PatternLayout>
+				<Policies>
+					<TimeBasedTriggeringPolicy modulate="true" interval="1" ></TimeBasedTriggeringPolicy>
+					<SizeBasedTriggeringPolicy size="100 KB" ></SizeBasedTriggeringPolicy>
+				</Policies>
+		</RollingFile>
+
+ 	<Console name="Console" target="SYSTEM_OUT">
+      	<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+	</Appenders>
+	<Loggers>
+		<Root level="all">
+			<AppenderRef ref="File" />
+		</Root>
+	</Loggers>
+	
+</Configuration>
